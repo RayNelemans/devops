@@ -25,7 +25,7 @@ jobs:
     - name: "Trigger the pipeline"
       uses: okteto/pipeline@latest
       with:
-        name: devops
+        name: defops-ray-noah
         timeout: 8m
         skipIfExists: false
         variables: |
