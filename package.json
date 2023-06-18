@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"node ./authentication_service/index.js\" \"node ./api_gateway/index.js\" \"node ./target_service/index.js\" \"node ./external_service/index.js\" \"node ./score_service/index.js\"",
+    "start": "concurrently \"node ./authentication_service/index.js\" \"node ./api-gateway/index.js\" \"node ./target_service/index.js\" \"node ./external_service/index.js\" \"node ./score_service/index.js\"",
     "test": "jest",
     "lint": "npx eslint .",
     "dev": "nodemon -r dotenv/config ./bin/www",

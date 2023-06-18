@@ -30,7 +30,7 @@ services:
       timeout: 15s
       retries: 5
 
-  api_gateway:
+  api-gateway:
     build: 
       context: ./api_gateway
       dockerfile: Dockerfile
@@ -124,7 +124,7 @@ services:
     depends_on:
       - mongodb
       - rabbitmq
-      - api_gateway
+      - api-gateway
       - authentication_service
       - external_service
       - score_service
